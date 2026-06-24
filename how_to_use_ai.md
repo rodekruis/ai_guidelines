@@ -83,13 +83,13 @@ When using an LLM/agent for coding it's very useful to add (git) repository leve
 
 The standards on how these repository level custom instructions are written are in flux. Some LLM providers will have their own standard but a relatively new standard is using a root level `AGENTS.md` file. See [AGENTS.md](https://agents.md/) for more information.
 
-👨‍🚀👨‍🚀👨‍🚀👨‍🚀👨‍🚀👨‍🚀 For an example see 121
+For an example of repository level instructions, see [121 Platform's AGENTS.md](https://github.com/global-121/121-platform/blob/main/AGENTS.md).
 
 Another way of doing this is using "skills". Each skill gets its own Markdown file in the repository, usually all skills files live together in a folder. An LLM can inspect these skills and decide to or be instructed to use a specific skill or skills for certain tasks. See [AgentSkills.io](https://agentskills.io/) for a lot of examples.
 
-#### Organization level configuration
+#### Organization level custom instructions and configuration
 
-? is org level custom instruction possible?
+It is also possible to set custom instructions on an organizational level on, for example [GitHub Copilot ](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-organization-instructions) and [Claude](https://support.claude.com/en/articles/14546867-set-organization-instructions).
 
 For certain AI products, like CoPilot, it's possible to configure an LLM organization wide. One example where this is helpful is in configuring the LLM from _not_ reading files with environment variables in them as this can be a potential security risk.
 
@@ -99,11 +99,7 @@ LLMs use a LOT of energy, when using agents LLM usage increases signficantly. Fo
 
 What complicates this is that a lower end model may need multiple iterations to get to the same result and a higher end model may be able to complete the same task with one prompt. So there's no easy answers here, experimentation is necessary. Also: the field is still changing so what's true today might not be true in two months time.
 
-### Supplying images instead of text
-
-\_stub
-
 ## Resources
 
 - [Simon Willison's - How I Use LLMs and ChatGPT](https://simonwillison.net/series/using-llms/)
--
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
