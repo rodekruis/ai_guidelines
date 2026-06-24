@@ -83,7 +83,7 @@ When using an LLM/agent for coding it's very useful to add (git) repository leve
 
 The standards on how these repository level custom instructions are written are in flux. Some LLM providers will have their own standard but a relatively new standard is using a root level `AGENTS.md` file. See [AGENTS.md](https://agents.md/) for more information.
 
-For an example of repository level instructions, see [121 Platform's AGENTS.md](https://github.com/global-121/121-platform/blob/main/AGENTS.md).
+For an example of repository level instructions, see [121 Platform's AGENTS.md](https://github.com/global-121/121-platform/blob/main/AGENTS.md) or a [more data science focused one from the Python Knowledge Base](https://github.com/rodekruis/python-knowledge-base/blob/main/data-analysis/copilot-instructions.md).
 
 Another way of doing this is using "skills". Each skill gets its own Markdown file in the repository, usually all skills files live together in a folder. An LLM can inspect these skills and decide to or be instructed to use a specific skill or skills for certain tasks. See [AgentSkills.io](https://agentskills.io/) for a lot of examples.
 
