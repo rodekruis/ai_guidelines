@@ -93,6 +93,12 @@ Another way of doing this is using "skills". Each skill gets its own Markdown fi
 
 For certain AI products, like CoPilot, it's possible to configure an LLM organization wide. One example where this is helpful is in configuring the LLM from _not_ reading files with environment variables in them as this can be a potential security risk.
 
+### Cost Efficient Usage
+
+LLMs use a LOT of energy, when using agents LLM usage increases signficantly. For both environmental and financial reasons it's good to be aware of how much you use LLMs and how much you really need to use them. Consider whether you need an LLMs for every task or if an alternative would be similarly good. Also consider the efficiency of the models you're using: does the current task require the use of a higher end and less efficient model or can you do with a lower end model?
+
+What complicates this is that a lower end model may need multiple iterations to get to the same result and a higher end model may be able to complete the same task with one prompt. So there's no easy answers here, experimentation is necessary. Also: the field is still changing so what's true today might not be true in two months time.
+
 ### Supplying images instead of text
 
 \_stub
