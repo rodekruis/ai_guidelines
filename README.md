@@ -2,7 +2,7 @@
 
 ## General Netherlands Red Cross guidelines
 
-This is the official [(Dutch language) guidelines for AI usage within the Netherlands Red Cross](https://kruispunt.rodekruis.nl/kenniscentrum/informatievoorziening-ict/ai-co-pilot?status=all).
+The official [(Dutch language) guidelines for AI usage within the Netherlands Red Cross](https://kruispunt.rodekruis.nl/kenniscentrum/informatievoorziening-ict/ai-co-pilot?status=all).
 
 ## AI usage guidelines for people that work with AI from a technical standpoint
 
