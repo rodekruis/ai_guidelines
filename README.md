@@ -24,3 +24,7 @@ When using GitHub CoPilot the usage can be inspected by going to [this page](htt
 ## How to use AI
 
 For some basic advice on how to use AI for coding see [How to use AI](how_to_use_ai.md).
+
+## Checklist for teams and projects
+
+For teams and projects there's a [checklist you can follow](./checklist.md).
