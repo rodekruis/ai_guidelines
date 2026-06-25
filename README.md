@@ -17,7 +17,7 @@ The [Responsible AI Guide](https://responsibleai.guide) is a framework/guide bui
 
 When using AI to help write software, please include a disclaimer with the source code. For an example see [this example AI Disclaimer](ai_disclaimer.md).
 
-## Inspecting CoPilot usage
+## Inspecting GitHub Copilot usage
 
 When using GitHub CoPilot the usage can be inspected by going to [this page](https://github.com/organizations/rodekruis/settings/billing/ai_usage?period=3&group=8&customer=1191460&chart_selection=2&view=models). You do need to be an owner of the GitHub organization to see it.
 
