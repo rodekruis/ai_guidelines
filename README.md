@@ -19,7 +19,7 @@ When using AI to help write software, please include a disclaimer with the sourc
 
 ## Inspecting GitHub Copilot usage
 
-When using GitHub Copilot the usage can be inspected by going to the [`rodekruis`'-org Settings → Billing and licensing → AI Usage](https://github.com/organizations/rodekruis/settings/billing/ai_usage?period=3&group=8&customer=1191460&chart_selection=2&view=models). You do need to be an owner of the GitHub organization to see it.
+When using GitHub Copilot, usage can be inspected by going to the [`rodekruis` org Settings → Billing and licensing → AI Usage](https://github.com/organizations/rodekruis/settings/billing/ai_usage?period=3&group=8&customer=1191460&chart_selection=2&view=models). You need to be an owner of the GitHub organization to see it.
 
 ## How to use AI
 

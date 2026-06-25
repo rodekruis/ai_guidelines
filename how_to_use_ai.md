@@ -60,7 +60,7 @@ There are different methods of doing this and there are various strategies.
 
 #### User level custom instructions
 
-Depending on the LLM and surrounding software you use (Claude Code, Copilot etc) you can provide user level custom instructions. These instructions will/should be applied to all interactions with the LLM from that computer or user account. VS Code on macOS will read `$HOME/.copilot/copilot-instructions.md` for any user level custom instructions.
+Depending on the LLM and surrounding software you use (Claude Code, GitHub Copilot, etc.) you can provide user level custom instructions. These instructions will/should be applied to all interactions with the LLM from that computer or user account. VS Code on macOS will read `$HOME/.copilot/copilot-instructions.md` for any user level custom instructions.
 
 The custom instructions there should be specific to the _user_ of the computer, not specific to any project.
 
@@ -91,7 +91,7 @@ Another way of doing this is using "skills". Each skill gets its own Markdown fi
 
 It is also possible to set custom instructions on an organizational level on, for example [GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-organization-instructions) and [Claude](https://support.claude.com/en/articles/14546867-set-organization-instructions).
 
-For certain AI products, like Copilot, it's possible to configure an LLM organization wide. One example where this is helpful is in configuring the LLM from _not_ reading files with environment variables in them as this can be a potential security risk.
+For certain AI products, like GitHub Copilot, it's possible to configure an LLM organization-wide. One example where this is helpful is in configuring the LLM from _not_ reading files with environment variables in them as this can be a potential security risk.
 
 ### Cost Efficient Usage
 
