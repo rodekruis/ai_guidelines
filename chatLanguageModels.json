@@ -1,0 +1,61 @@
+[
+	{
+		"name": "510 Foundry - OpenAI",
+		"vendor": "customendpoint",
+		"apiKey": "<api-key>",
+		"apiType": "chat-completions",
+		"models": [
+			{
+				"id": "<openai-model-id>",
+				"name": "<openai-model-id> (510 Foundry)",
+				"url": "https://510-ai-general.openai.azure.com/openai/v1/chat/completions",
+				"toolCalling": true,
+				"vision": true,
+				"streaming": true,
+				"thinking": true,
+				"supportsReasoningEffort": [
+					"low",
+					"medium",
+					"high"
+				],
+				"maxInputTokens": 200000,
+				"maxOutputTokens": 50000,
+				"modelOptions": {
+					"temperature": 1,
+					"top_p": 1
+				}
+			}
+		]
+	},
+	{
+		"name": "510 Foundry - Claude",
+		"vendor": "customendpoint",
+		"apiKey": "<api-key>",
+		"apiType": "messages",
+		"models": [
+			{
+				"id": "<anthropic-model-id>",
+				"name": "<anthropic-model-id> (510 Foundry)",
+				"url": "https://510-ai-general.services.ai.azure.com/anthropic/v1/messages",
+				"toolCalling": true,
+				"vision": true,
+				"streaming": true,
+				"thinking": true,
+				"supportsReasoningEffort": [
+					"low",
+					"medium",
+					"high"
+				],
+				"maxInputTokens": 200000,
+				"maxOutputTokens": 50000,
+				"modelOptions": {
+					"temperature": 1
+				},
+				"requestHeaders": {
+					"x-api-key": "<api-key>",
+					"anthropic-version": "2023-06-01"
+				}
+			}
+		]
+  }
+]
