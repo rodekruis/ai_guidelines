@@ -13,17 +13,21 @@ uses AI in quite specific ways: software developers, data scientists, system adm
 
 The [Responsible AI Guide](https://responsibleai.guide) is a framework/guide built in collaboration by the Humanitarian OpenStreetMap Team and the 510 Team of the Netherlands Red Cross. All Netherlands Red Cross employees that work with AI from a software development standpoint should familiarize themselves with the contents of this framework.
 
-### Self-Managed model (Azure Foundry)
-
-It is possible to use self-managed models on Azure Foundry through Github Copilot. This ensures an extra level of data protection, because no third-party AI provider ever processes the data, and is **the preferred solutions when using AI on external infrastructure (e.g. a VM hosted by another NS)**. To configure this in VSCode, click `Ctrl+Shift+P` > `Chat: Manage Language Models` > `Open Language Models (JSON)` (top-right page icon) then configure it as shown [here](chatLanguageModels.json).
-
 ### AI Disclaimer
 
 When using AI to help write software, please include a disclaimer with the source code. For an example see [this example AI Disclaimer](ai_disclaimer.md).
 
-## Inspecting GitHub Copilot usage
+## Tools
+
+The preferred solutions to use AI are the Claude app for office work and Github Copilot for software development / data / cloud management. Here are some tips and tricks to use them effectively.
+
+### Inspecting GitHub Copilot usage
 
 When using GitHub Copilot, usage can be inspected by going to the [`rodekruis` org Settings → Billing and licensing → AI Usage](https://github.com/organizations/rodekruis/settings/billing/ai_usage?period=3&group=8&customer=1191460&chart_selection=2&view=models). You need to be an owner of the GitHub organization to see it.
+
+### Self-Hosted Models (Azure Foundry)
+
+In Github Copilot it is possible to use models that we self-host or self-manage through Azure Foundry. This ensures an extra level of data protection, because no third-party AI provider ever processes the data, and is **the preferred solutions when using AI on external infrastructure (e.g. a VM hosted by another NS)**. To configure this in VSCode, click `Ctrl+Shift+P` > `Chat: Manage Language Models` > `Open Language Models (JSON)` (top-right page icon) then configure it as shown [here](chatLanguageModels.json).
 
 ## How to use AI
 
