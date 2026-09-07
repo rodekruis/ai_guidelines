@@ -27,7 +27,7 @@ When using GitHub Copilot, usage can be inspected by going to the [`rodekruis` o
 
 ### Self-Hosted Models (Azure Foundry)
 
-In Github Copilot it is possible to use models that we self-host or self-manage through Azure Foundry. This ensures an extra level of data protection, because no third-party AI provider ever processes the data, and is **the preferred solutions when using AI on external infrastructure (e.g. a VM hosted by another NS)**. To configure this in VSCode, click `Ctrl+Shift+P` > `Chat: Manage Language Models` > `Open Language Models (JSON)` (top-right page icon) then configure it as shown [here](chatLanguageModels.json).
+In Github Copilot it is possible to use models that we self-host through Azure Foundry. This ensures an extra level of data protection, because no third-party AI provider ever processes the data, and is **the preferred solutions when using AI on external infrastructure (e.g. a VM hosted by another NS)**. To configure this in VSCode, click `Ctrl+Shift+P` > `Chat: Manage Language Models` > `Open Language Models (JSON)` (top-right page icon) then configure it as shown [here](chatLanguageModels.json).
 
 ## How to use AI
 
