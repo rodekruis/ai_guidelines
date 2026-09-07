@@ -25,7 +25,7 @@ The preferred solutions to use AI are the Claude app for office work and Github 
 
 When using GitHub Copilot, usage can be inspected by going to the [`rodekruis` org Settings → Billing and licensing → AI Usage](https://github.com/organizations/rodekruis/settings/billing/ai_usage?period=3&group=8&customer=1191460&chart_selection=2&view=models). You need to be an owner of the GitHub organization to see it.
 
-### Self-Hosted Models (Azure Foundry)
+### Self-Hosted Models in Github Copilot
 
 In Github Copilot it is possible to use models that we self-host through Azure Foundry. This ensures an extra level of data protection, because no third-party AI provider ever processes the data, and is **the preferred solutions when using AI on external infrastructure (e.g. a VM hosted by another NS)**. To configure this in VSCode, click `Ctrl+Shift+P` > `Chat: Manage Language Models` > `Open Language Models (JSON)` (top-right page icon) then configure it as shown [here](chatLanguageModels.json).
 
