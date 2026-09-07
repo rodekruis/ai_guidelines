@@ -13,6 +13,10 @@ uses AI in quite specific ways: software developers, data scientists, system adm
 
 The [Responsible AI Guide](https://responsibleai.guide) is a framework/guide built in collaboration by the Humanitarian OpenStreetMap Team and the 510 Team of the Netherlands Red Cross. All Netherlands Red Cross employees that work with AI from a software development standpoint should familiarize themselves with the contents of this framework.
 
+### Self-Managed model (Azure Foundry)
+
+It is possible to use self-managed models on Azure Foundry through Github Copilot. This ensures an extra level of data protection, because no third-party AI provider ever processes the data, and is **the preferred solutions when using AI on external infrastructure (e.g. a VM hosted by another NS)**. To configure this in VSCode, click `Ctrl+Shift+P` > `Chat: Manage Language Models` > `Open Language Models (JSON)` (top-right page icon) then configure it as shown [here](chatLanguageModels.json).
+
 ### AI Disclaimer
 
 When using AI to help write software, please include a disclaimer with the source code. For an example see [this example AI Disclaimer](ai_disclaimer.md).
